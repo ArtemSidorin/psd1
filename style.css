@@ -1,0 +1,177 @@
+﻿@font-face {
+	font-family: TitilliumWeb-Bold;
+	src: url(fonts/TitilliumWeb-Bold.ttf);
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: TitilliumWeb-light;
+	src: url(fonts/TitilliumWeb-light.ttf);
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: TitilliumWeb-Regular;
+	src: url(fonts/TitilliumWeb-Regular.ttf);
+	font-weight: normal;
+    font-style: normal;
+}
+body {
+	min-height: 6160px;
+	width: 1440px;
+	margin: auto;
+	line-height: 1.4;
+}
+.welcome {
+	height: 595px;
+	width: auto;
+	background: #87509c;
+	position: relative;
+}
+.logo {
+    position: absolute; top: 57.6px; left: 212px;
+}
+
+.welcome ul{
+	position: absolute;
+	list-style: none;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 17px;
+	position: absolute;
+	margin-top: 60px;
+	margin-right: 190px;
+	right: 0;
+}
+.welcome li {
+	float: left;
+	text-align: center;
+	height: 32px;
+	width: 77px;
+	margin-left: 15px;
+}
+.welcome li a {
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+.welcome li :hover{
+	background: #643a79;
+	height: 32px;
+	width: 77px;
+	border-radius: 3px;
+}
+.text {
+	text-align: center;
+	padding: 180px;
+}
+.text p {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	display: block;
+	color: white;
+}
+.text button {
+	height: 70px;
+	width: 295px;
+	text-align: center;
+	background: #eb7d4b;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Arial, sans-serif;
+	border-bottom: solid 4px #c86a40;
+}
+.services {
+	background: #17c2a4;
+	height: 745px;
+	margin: 0;
+	padding: 0;
+}
+.SERVICES_WE_PROVIDE {
+	color: white;
+	font-size: 37px;
+	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding-top: 110px;
+	letter-spacing: 8px;
+}
+#line {
+	text-align: center;
+	margin: 0;
+}
+.We {
+	color: #fff;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
+	font-weight: 300;
+}
+.services_block {
+	display: inline-block;
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+	margin-left: 90px;
+	font-size: 1.1em;
+	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
+	font-weight: 200;
+}	
+.services_block1 {
+	display: inline-block;
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+	margin-left: 180px;
+    font-size: 1.1em;
+	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
+	font-weight: 300;
+}
+#serv {
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-top: 20px;
+	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+}
+.team {
+	height: 914px;
+	background: #e7f1f8;
+	margin: 0;
+	padding: 0;
+}
+.MEET_OUR_BEAUTIFUL_TEAM {
+	color: #3c4761;
+	font-size: 37px;
+	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding-top: 110px;
+	letter-spacing: 8px;
+}
+.We2 {
+	color: #3c4761;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
+	font-weight: bold;
+}
+.team_block {
+	display: inline-block;
+	padding-top: 80px;
+	color: #3c4761;
+	text-align: center;
+	margin-left: 180px;
+	font-size: 1.1em;
+	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
+	font-weight: 200;
+}
+
+
+
+
