@@ -171,7 +171,11 @@ body {
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 200;
 }
-
+.team_block img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
 
 
 
