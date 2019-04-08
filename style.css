@@ -116,7 +116,7 @@ body {
 	padding-top: 40px;
 	color: white;
 	text-align: center;
-	margin-left: 90px;
+	margin-left: 80px;
 	font-size: 1.1em;
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 200;
@@ -129,14 +129,15 @@ body {
 	margin-left: 180px;
     font-size: 1.1em;
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 }
 #serv {
 	font-size: 25px;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding-top: 20px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+	margin-top: 40px;
+	margin-bottom: 0px;
 }
 .team {
 	height: 914px;
@@ -161,21 +162,38 @@ body {
 	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
 	font-weight: bold;
 }
-.team_block {
+.team_block1 {
 	display: inline-block;
-	padding-top: 80px;
+	padding-top: 40px;
 	color: #3c4761;
 	text-align: center;
 	margin-left: 180px;
 	font-size: 1.1em;
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
-	font-weight: 200;
+	font-weight: 600;
+}
+.team_block1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.team_block {
+	display: inline-block;
+	padding-top: 40px;
+	color: #3c4761;
+	text-align: center;
+	margin-left: 80px;
+	font-size: 1.1em;
+	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
+	font-weight: 600;
 }
 .team_block img {
     height: 200px;
     width: 200px;
     border-radius: 100px;
 }
-
-
-
+.vacancy {
+	color: #30bae7;
+	font-weight: 600;
+	margin-top: 8px;
+}
