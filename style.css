@@ -172,7 +172,7 @@ body {
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 600;
 }
-.team_block1 img {
+.foto {
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -187,13 +187,19 @@ body {
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 600;
 }
-.team_block img {
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-}
 .vacancy {
 	color: #30bae7;
 	font-weight: 600;
 	margin-top: 8px;
+}
+.contact {
+	width: 32px;
+	height: 32px;
+	border: 0px double white;
+    border-radius: 100px;
+    background: #bdd1df;
+    display: inline-block;
+}
+.contact img {
+	
 }
