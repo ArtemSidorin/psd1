@@ -93,7 +93,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.SERVICES_WE_PROVIDE {
+#zagolovok-white {
 	color: white;
 	font-size: 37px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
@@ -101,7 +101,17 @@ body {
 	text-align: center;
 	margin: 0;
 	padding-top: 110px;
-	letter-spacing: 8px;
+	letter-spacing: 6px;
+}
+#zagolovok-black {
+	color: #3c4761;
+	font-size: 37px;
+	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding-top: 110px;
+	letter-spacing: 6px;
 }
 #line {
 	text-align: center;
@@ -110,9 +120,16 @@ body {
 .We {
 	color: #fff;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
 	font-weight: 300;
+}
+.we2 {
+	color: #3c4761;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
+	font-weight: bold;
 }
 .services_block {
 	display: inline-block;
@@ -157,13 +174,6 @@ body {
 	margin: 0;
 	padding-top: 110px;
 	letter-spacing: 8px;
-}
-.We2 {
-	color: #3c4761;
-	text-align: center;
-	font-size: 1.1em;
-	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
-	font-weight: bold;
 }
 .team_block1 {
 	display: inline-block;
@@ -210,4 +220,8 @@ body {
 }
 .contact img {
     vertical-align: middle;
+}
+.skills {
+	height: 655px;
+	background: #ffffff;
 }
