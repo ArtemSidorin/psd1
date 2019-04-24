@@ -219,7 +219,7 @@ body {
     border-radius: 100px;
 }
 .contact img {
-    vertical-align: middle;
+    margin-bottom: -3.5px;
 }
 .skills {
 	height: 655px;
