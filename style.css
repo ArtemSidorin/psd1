@@ -219,9 +219,40 @@ body {
     border-radius: 100px;
 }
 .contact img {
-    margin-bottom: -3.5px;
+    margin-bottom: -3.8px;
 }
 .skills {
 	height: 655px;
 	background: #ffffff;
+}
+.border-procent1 {
+	display: inline-block;
+	padding-top: 85px;
+	margin-left: 220px;
+}
+.border-procent {
+	display: inline-block;
+	padding-top: 85px;
+	margin-left: 100px;
+
+}
+.procent90, .procent75, .procent70, .procent85 {
+	border-radius: 100%;
+	font-family: TitilliumWeb-light;
+	font-size: 50px;
+	padding: 35px;
+	text-align: center;
+}
+.procent90 {
+    border: 13px solid ;
+}
+.procent75 {
+    border: 13px solid ;
+
+}
+.procent70 {
+    border: 13px solid ;
+}
+.procent85 {
+    border: 13px solid ;
 }
