@@ -123,6 +123,7 @@ body {
 	font-size: 1.2em;
 	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
 	font-weight: 300;
+	margin: 15px 0px 0px 0px;
 }
 .we2 {
 	color: #3c4761;
@@ -130,6 +131,7 @@ body {
 	font-size: 1.2em;
 	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
 	font-weight: bold;
+	margin: 15px 0px 0px 0px;
 }
 .services_block {
 	display: inline-block;
@@ -154,7 +156,7 @@ body {
 #serv {
 	font-size: 25px;
 	font-weight: 600;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
 	margin-top: 40px;
 	margin-bottom: 0px;
@@ -223,36 +225,54 @@ body {
 }
 .skills {
 	height: 655px;
-	background: #ffffff;
+	background: #ffff;
 }
-.border-procent1 {
+.block-procent1 {
 	display: inline-block;
-	padding-top: 85px;
+	margin-top: 0px;
 	margin-left: 220px;
+	text-align: center;
+    padding-top: 80px;
 }
-.border-procent {
+.block-procent {
 	display: inline-block;
-	padding-top: 85px;
-	margin-left: 100px;
-
+	margin-top: 0px;
+	margin-left: 97px;
+	text-align: center;
+	padding-top: 80px;
 }
 .procent90, .procent75, .procent70, .procent85 {
-	border-radius: 100%;
 	font-family: TitilliumWeb-light;
 	font-size: 50px;
-	padding: 35px;
-	text-align: center;
+	padding: 32px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
 }
 .procent90 {
-    border: 13px solid ;
+    border: 13px solid #30bae7;
 }
 .procent75 {
-    border: 13px solid ;
-
+    border: 13px solid #d74680;
 }
 .procent70 {
-    border: 13px solid ;
+    border: 13px solid #15c7a8;
 }
 .procent85 {
-    border: 13px solid ;
+    border: 13px solid #eb7d4b;
+}
+.procent90 span, .procent75 span, .procent70 span, .procent85 span {
+	font-size: 35px;
+}
+.description {
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
+	padding: 25px 0 0 0;
+	margin: 0;
+}
+.portfolio {
+	background: #ffdd99;
+	height: 1423px;
 }
