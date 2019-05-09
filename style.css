@@ -273,6 +273,7 @@ body {
     -ms-transform: translateY(4px);
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
+    transform: translateZ();
 }
 .block-procent1 tspan, .block-procent tspan {
 	font-size: 7px;
