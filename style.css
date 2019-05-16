@@ -104,7 +104,7 @@ body {
 	letter-spacing: 6px;
 }
 #zagolovok-black {
-	color: #3c4761;
+	color: #393939;
 	font-size: 37px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
 	display: block;
@@ -126,7 +126,7 @@ body {
 	margin: 15px 0px 0px 0px;
 }
 .we2 {
-	color: #3c4761;
+	color: #393939;
 	text-align: center;
 	font-size: 1.2em;
 	font-family: TitilliumWeb-Regular, Arial Narrow, sans-serif;
@@ -289,4 +289,24 @@ body {
 .portfolio {
 	background: #ffdd99;
 	height: 1423px;
+}
+.link-portfolio {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: TitilliumWeb-Regular, sans-serif;
+    font-weight: bold;
+    color: #393939;
+    border: 0px solid red;
+    border-radius: 5px;
+    background: #ebc985;
+    padding: 6px 23px;
+    margin-left: 10px;
+}
+.link-portfolio:hover {
+    background: #ffff;
+}
+.link-block {
+	text-align: center;
+	margin: 0;
+	margin-top: 50px;
 }
