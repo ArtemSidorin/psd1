@@ -16,6 +16,12 @@
 	font-weight: normal;
     font-style: normal;
 }
+@font-face {
+	font-family: TitilliumWeb-SemiBold;
+	src: url(fonts/TitilliumWeb-SemiBold.ttf);
+	font-weight: normal; 
+	font-style: normal;
+}
 body {
 	min-height: 6160px;
 	width: 1440px;
@@ -86,6 +92,8 @@ body {
 	font-family: Arial, sans-serif;
 	border-bottom: solid 4px #c86a40;
 	cursor: pointer;
+    letter-spacing: 1px;
+
 }
 .services {
 	background: #17c2a4;
@@ -289,6 +297,7 @@ body {
 .portfolio {
 	background: #ffdd99;
 	height: 1423px;
+	position: relative;
 }
 .link-portfolio {
     text-decoration: none;
@@ -310,3 +319,46 @@ body {
 	margin: 0;
 	margin-top: 50px;
 }
+.figure-left {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-top: 65px;
+	float: left;
+	margin-left: 170px;
+}
+.figure-right {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-top: 65px;
+	float: right;
+	margin-right: 170px;
+}
+.figure-left p, .figure-right p {
+	text-align: center;
+	font-family: TitilliumWeb-Regular, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 17px;
+}
+.portfolio button {
+	height: 70px;
+	width: 295px;
+	background: #17c2a4;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	font-family: TitilliumWeb-SemiBold, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border-bottom: solid 4px #14a58c;
+	cursor: pointer;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 109px;
+	right: 573px;
+
+}
+
+    
