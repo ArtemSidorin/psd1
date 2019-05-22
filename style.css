@@ -101,9 +101,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#zagolovok-white {
+.zagolovok-white {
 	color: white;
-	font-size: 37px;
+	font-size: 40px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
 	display: block;
 	text-align: center;
@@ -111,9 +111,9 @@ body {
 	padding-top: 110px;
 	letter-spacing: 6px;
 }
-#zagolovok-black {
+.zagolovok-black {
 	color: #393939;
-	font-size: 37px;
+	font-size: 40px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
 	display: block;
 	text-align: center;
@@ -121,11 +121,11 @@ body {
 	padding-top: 110px;
 	letter-spacing: 6px;
 }
-#line {
+.line {
 	text-align: center;
 	margin: 0;
 }
-.We {
+.we {
 	color: #fff;
 	text-align: center;
 	font-size: 1.2em;
@@ -161,7 +161,7 @@ body {
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 200;
 }
-#serv {
+.serv {
 	font-size: 25px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -358,7 +358,22 @@ body {
 	position: absolute;
 	bottom: 109px;
 	right: 573px;
-
+}
+.testimonials {
+	height: 894px;
+	background-color: #d74680;
+}
+.form {
+	height: 931px;
+	background-color: #3c5499;
+}
+.recommendations img {
+	height: 96px;
+	width: 96px;
+	border-radius: 100%;
 }
 
-    
+
+
+
+  
