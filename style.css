@@ -380,22 +380,22 @@ body {
 	border-radius: 100%;
 	float: left;
 	margin: 0px 48px 100px 0px;
-
 }
 .recommendations-block {
 	position: relative;
-	width: 1100px;
-	height: 480px;
-	margin: auto;
+	width: 1080px;
+	height: 450px;
+	margin-left: 170px;
 }
 .recommendations-description {
 	white-space: nowrap;
 	margin: 0;
 	color: #fff;
-	margin-bottom: 30px;
-	font-size: 22px;
+	margin-bottom: 15px;
+	font-size: 21px;
 	font-family: TitilliumWeb-Italic, sans-serif;
     letter-spacing: 1px;
+    padding-top: 5px;
 }
 .recommendations-name {
 	font-size: 25px;
@@ -405,13 +405,15 @@ body {
     white-space: nowrap;
     margin: 0;
     color: #fff;
-
 }
 .profession {
     white-space: nowrap;
     color: #ffdd99;
     margin: 0;
-
+    font-family: TitilliumWeb-Regular, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 0;
 }
 
 
