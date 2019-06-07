@@ -492,14 +492,41 @@ textarea::-webkit-input-placeholder {
 .social-media {
     height: 112px;
     background: #344b8e;
-    
 }
-
-
-
-
-
-
+.social-media ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: 250px;
+    margin-top: 37px;
+}
+.social-media li {
+	float: left;
+}
+.social-media a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	margin-right: 55px;
+	font-family: TitilliumWeb-SemiBold, sans-serif;
+}
+.social-media a:hover {
+	color: #30bae7;
+}
+#toTop {
+    width: 50px;
+    height: 50px;
+    background: rgba(216, 72, 72, 0.5);
+    border-radius: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
 
 
 
