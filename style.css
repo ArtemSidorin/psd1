@@ -416,7 +416,7 @@ body {
     padding: 0;
 }
 .form-block {
-	height: 931px;
+	height: 818px;
 	background-color: #3c5499;
 }
 .form {
@@ -433,6 +433,9 @@ body {
     margin-left: 16px;
     margin-right: 16px;
     margin-top: 76px;
+    color: white;
+	font-size: 20px;
+
 }
 .textarea {
 	height: 200px; 
@@ -441,9 +444,24 @@ body {
     border-radius: 5px;
     background: #273a71;
     margin-top: 27px;
+    color: white;
+	font-size: 20px;
 }
-
-
+.formbutton {
+    height: 70px;
+	width: 295px;
+	background: #30bae7;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	font-family: TitilliumWeb-SemiBold, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	border-bottom: solid 4px #299ec5;
+	cursor: pointer;
+	letter-spacing: 1px;
+	padding: 0;
+}
 input::-moz-placeholder { 
 	color: #fff; padding-left: 25px; font-family: TitilliumWeb-Regular, sans-serif;
     font-size: 18px;
@@ -460,8 +478,31 @@ textarea::-webkit-input-placeholder {
 	color: #fff; padding: 25px 0 0 25px; font-family: TitilliumWeb-Regular, sans-serif;
 	font-size: 18px;
 }
+.formbutton-block {
+	margin: 0;
+	text-align: center;
+	margin-top: 55px;
+}
+.gradient {
+	height: 1px;
+	background: repeating-linear-gradient(to right, rgba( 60, 84, 153, 0.9) 0px, 
+    rgba( 60, 84, 153, 0.9) 8px, rgba( 60, 84, 153, 0.8) 8px, rgba( 60, 84, 153, 0.8) 16px);
+    
+}
+.social-media {
+    height: 112px;
+    background: #344b8e;
+    
+}
 
 
 
 
-  
+
+
+
+
+
+
+
+
