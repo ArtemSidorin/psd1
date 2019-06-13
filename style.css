@@ -29,14 +29,13 @@
 	font-style: normal;
 }
 body {
-	height: 6160px;
-	min-width: 1422px;
+	min-height: 6160px;
 	max-width: 1440px;
 	margin: auto;
 	line-height: 1.4;
 }
 .welcome {
-	height: 595px;
+	min-height: 595px;
 	width: auto;
 	background: #87509c;
 	position: relative;
@@ -108,7 +107,7 @@ body {
 }
 .services {
 	background: #17c2a4;
-	height: 745px;
+	min-height: 745px;
 	margin: 0;
 	padding: 0;
 }
@@ -160,7 +159,7 @@ body {
 	margin-left: 80px;
 	font-size: 1.1em;
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
-	font-weight: 200;
+	font-weight: 200; 
 }
 .services_block1 {
 	display: inline-block;
@@ -181,7 +180,7 @@ body {
 	margin-bottom: 0px;
 }
 .team {
-	height: 914px;
+	min-height: 914px;
 	background: #e7f1f8;
 	margin: 0;
 	padding: 0;
@@ -243,7 +242,7 @@ body {
     margin-bottom: -3.8px;
 }
 .skills {
-	height: 655px;
+	min-height: 655px;
 	background: #ffff;
 }
 .block-procent1 {
@@ -306,7 +305,7 @@ body {
 }
 .portfolio {
 	background: #ffdd99;
-	height: 1423px;
+	min-height: 1423px;
 	position: relative;
 }
 .link-portfolio {
@@ -370,7 +369,7 @@ body {
 	right: 573px;
 }
 .testimonials {
-	height: 894px;
+	min-height: 894px;
 	background-color: #d74680;
 }
 .recommendations {
@@ -420,7 +419,7 @@ body {
     padding: 0;
 }
 .form-block {
-	height: 818px;
+	min-height: 818px;
 	background-color: #3c5499;
 }
 .form {
