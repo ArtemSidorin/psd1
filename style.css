@@ -202,6 +202,7 @@ body {
 	font-family: TitilliumWeb-light, Arial Narrow, sans-serif;
 	font-weight: 600;
 	padding: 8px 40px 0 40px;
+	padding-bottom: 5px;
 }
 .foto {
     height: 200px;
@@ -290,7 +291,6 @@ body {
 .portfolio {
 	background: #ffdd99;
 	min-height: 1423px;
-	position: relative;
 }
 .link-portfolio {
     text-decoration: none;
@@ -312,28 +312,30 @@ body {
 	margin: 0;
 	margin-top: 50px;
 }
-.figure-left {
-	display: inline-block;
-	padding: 0;
-	margin: 0;
-	margin-top: 65px;
-	float: left;
-	margin-left: 170px;
+.figure-block {
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
 }
-.figure-right {
-	display: inline-block;
-	padding: 0;
-	margin: 0;
-	margin-top: 65px;
-	float: right;
-	margin-right: 170px;
+.figure-blockbottom {
+	margin: auto;
+    text-align: center;
+    margin-top: 65px;
 }
-.figure-left p, .figure-right p {
+.figure {
+	display: inline-block;
+	padding: 0 10px ;
+	margin: 0;
+}
+.figure p {
 	text-align: center;
 	font-family: TitilliumWeb-Regular, sans-serif;
 	font-weight: bold;
 	margin: 0;
 	padding-top: 17px;
+}
+.portfoliobutton {
+    position: absolute;
 }
 .portfolio button {
 	height: 70px;
@@ -348,9 +350,11 @@ body {
 	border-bottom: solid 4px #14a58c;
 	cursor: pointer;
 	letter-spacing: 1px;
-	position: absolute;
-	bottom: 109px;
-	right: 573px;
+	margin-top: 120px;
+	position: relative;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .testimonials {
 	min-height: 894px;
