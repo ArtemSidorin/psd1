@@ -478,16 +478,18 @@ textarea::-webkit-input-placeholder {
     
 }
 .social-media {
-    height: 112px;
+    min-height: 112px;
     background: #344b8e;
+}
+.social-mediablock {
+	margin: auto;
+    text-align: center;
 }
 .social-media ul {
 	list-style: none;
 	display: inline-block;
-	padding: 0;
 	margin: 0;
-	margin-left: 250px;
-    margin-top: 37px;
+	padding-top: 37px;
 }
 .social-media li {
 	float: left;
@@ -498,6 +500,7 @@ textarea::-webkit-input-placeholder {
 	color: #fff;
 	margin-right: 55px;
 	font-family: TitilliumWeb-SemiBold, sans-serif;
+
 }
 .social-media a:hover {
 	color: #30bae7;
