@@ -43,7 +43,6 @@ body {
 .logo {
     position: absolute; top: 57.6px; left: 212px;
 }
-
 .welcome ul{
 	position: absolute;
 	list-style: none;
@@ -97,13 +96,17 @@ body {
     letter-spacing: 1px;
     display: inline-block;
     text-decoration: none;
+    position: absolute;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
 }
 .big-button span {
-	display: inline-block;
 	font-size: 17px;
 	font-weight: 500;
 	font-family: TitilliumWeb-SemiBold, sans-serif;
 	color: white;
+	position: relative;
+	top: 35%;
 }
 .services {
     background: #17c2a4;
