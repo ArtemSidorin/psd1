@@ -320,12 +320,11 @@ body {
 .figure-blockbottom {
 	margin: auto;
     text-align: center;
-    margin-top: 65px;
 }
 .figure {
 	display: inline-block;
 	padding: 0 10px ;
-	margin: 0;
+	margin-bottom: 60px;
 }
 .figure p {
 	text-align: center;
@@ -333,9 +332,6 @@ body {
 	font-weight: bold;
 	margin: 0;
 	padding-top: 17px;
-}
-.portfoliobutton {
-    position: absolute;
 }
 .portfolio button {
 	height: 70px;
@@ -350,11 +346,11 @@ body {
 	border-bottom: solid 4px #14a58c;
 	cursor: pointer;
 	letter-spacing: 1px;
-	margin-top: 120px;
 	position: relative;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    margin-top: 50px;
 }
 .testimonials {
 	min-height: 894px;
