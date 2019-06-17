@@ -356,9 +356,18 @@ body {
 	min-height: 894px;
 	background-color: #d74680;
 }
+.recommendations-block {
+    text-align: center;
+}
+.recommendations-blockbottom {
+    text-align: center;
+}
 .recommendations {
-    position: absolute;
+	display: inline-block;
+    width: 510px;
     height: 155px;
+    text-align: left;
+    padding: 80px 45px;
 }
 .recommendations img {
 	display: block;
@@ -368,12 +377,6 @@ body {
 	float: left;
 	margin: 0px 48px 100px 0px;
 }
-.recommendations-block {
-	position: relative;
-	width: 1080px;
-	height: 450px;
-	margin-left: 170px;
-}
 .recommendations-description {
 	white-space: nowrap;
 	margin: 0;
@@ -382,7 +385,6 @@ body {
 	font-size: 21px;
 	font-family: TitilliumWeb-Italic, sans-serif;
     letter-spacing: 1px;
-    padding-top: 5px;
 }
 .recommendations-name {
 	font-size: 25px;
@@ -390,17 +392,16 @@ body {
 	letter-spacing: 1px;
 	font-family: TitilliumWeb-Bold, Arial Narrow, sans-serif;
     white-space: nowrap;
-    margin: 0;
     color: #fff;
+    margin: 0;
 }
-.profession {
+.recommendations-profession {
     white-space: nowrap;
     color: #ffdd99;
-    margin: 0;
     font-family: TitilliumWeb-Regular, sans-serif;
     font-size: 1.1em;
     letter-spacing: 1px;
-    padding: 0;
+    margin: 0;
 }
 .form-block {
 	min-height: 818px;
