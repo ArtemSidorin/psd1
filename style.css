@@ -453,6 +453,12 @@ body {
 	letter-spacing: 1px;
 	padding: 0;
 }
+input {
+	padding-left: 5px;
+}
+textarea {
+	padding: 5px 0 0 5px;
+}
 input::-moz-placeholder { 
 	color: #fff; padding-left: 25px; font-family: TitilliumWeb-Regular, sans-serif;
     font-size: 18px;
