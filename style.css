@@ -30,7 +30,7 @@
 }
 body {
 	min-height: 6160px;
-	width: 100%;
+	min-width: 482px;
 	margin: auto;
 	line-height: 1.4;
 }
