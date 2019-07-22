@@ -28,9 +28,12 @@
 	font-weight: normal; 
 	font-style: normal;
 }
+@media all (min-width: 700px;) {
+    
+}
 body {
 	min-height: 6160px;
-	min-width: 575px;
+	min-width: 600px;
 	margin: auto;
 	line-height: 1.4;
 }
@@ -514,6 +517,7 @@ textarea::-webkit-input-placeholder {
 .social-media a:hover {
 	color: #30bae7;
 }
+
 #toTop {
     width: 50px;
     height: 50px;
