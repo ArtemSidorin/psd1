@@ -28,7 +28,9 @@
 	font-weight: normal; 
 	font-style: normal;
 }
-@media all (min-width: 700px;) {
+@media all (min-width: 1024px;) {
+   .logo { 
+   	text-align: center;}
     
 }
 body {
@@ -230,7 +232,7 @@ body {
 	height: 32px;
 	border: 0px double white;
     display: inline-block;
-    background: #bdd1df no-repeat 50%;
+    background: #bdd1df;
     border-radius: 100px;
 }
 .contact img {
