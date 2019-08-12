@@ -30,8 +30,8 @@
 }
 @media all (min-width: 1024px;) {
    .logo { 
-   	text-align: center;}
-    
+   	position: absolute;
+    left: 50%;}
 }
 body {
 	min-height: 6160px;
@@ -232,10 +232,19 @@ body {
 	height: 32px;
 	border: 0px double white;
     display: inline-block;
-    background: #bdd1df;
     border-radius: 100px;
 }
-.contact img {
+.fb {
+	background: #bdd1df url(img/fb-icon.png) no-repeat 50% 45%;
+}
+.tw {
+	background: #bdd1df url(img/twitter-icon.png) no-repeat 50% 50%;
+}
+.in {
+	background: #bdd1df url(img/linkedin-icon.png) no-repeat 50% 40%;
+}
+.gm {
+	background: #bdd1df url(img/mail-icon.png) no-repeat 50% 50%;
 }
 .skills {
 	min-height: 655px;
